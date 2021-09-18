@@ -55,7 +55,6 @@ Included in the `tests/` directory is a `./load_test.sh` script for running many
 against the `Hash Password` endpoint. 
 
 Along with the load test, a postman Library is also available in the `tests/postman` directory. 
-## Resourses Used 
 
 ## Project Notes
 The Go language is new to me.  I used documentation and many tutorials to figure out how 
