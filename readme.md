@@ -1,6 +1,6 @@
 
 # Golang Hash API
-A small application that can take a plain text password, hash it and keep some basic metrixs about the process
+A small application that can take a plain text password, hash it and keep some basic metrics about the process
 
 ## Starting the server
 In the root directory run:
