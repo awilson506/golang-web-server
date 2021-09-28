@@ -9,6 +9,7 @@ import (
 
 func main() {
 
+	//start the server
 	s := server.NewServer()
 	err := s.Start()
 

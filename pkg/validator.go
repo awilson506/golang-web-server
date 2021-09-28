@@ -14,6 +14,7 @@ type HashGetRequest struct {
 	Errors map[string]string
 }
 
+//Validate the hash password request
 func ValidateHashRequest(password string) (*HashRequest, bool) {
 
 	msg := &HashRequest{
@@ -30,12 +31,11 @@ func ValidateHashRequest(password string) (*HashRequest, bool) {
 	return msg, true
 }
 
+// Validate the get hashed password request
 func ValidateHashGetRequest(hashId string) (int, *HashGetRequest, bool) {
 
 	msg := &HashGetRequest{}
-
 	msg.Errors = make(map[string]string)
-
 	id, err := strconv.Atoi(hashId)
 
 	if err != nil {
