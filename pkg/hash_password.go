@@ -12,7 +12,7 @@ type Client struct {
 	hashes sync.Map
 }
 
-// Get and instance of the password handler client
+// Get an instance of the password handler client
 func New() *Client {
 	return &Client{}
 }
