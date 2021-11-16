@@ -63,6 +63,7 @@ the mux server, middleware, and session storage work
 [Effective Go](https://golang.org/doc/effective_go)
 
 [Middleware Patterns](https://drstearns.github.io/tutorials/gomiddleware)
+
 [Building Middleware](https://www.alexedwards.net/blog/making-and-using-middleware)
 
 [Sync Maps](https://medium.com/@deckarep/the-new-kid-in-town-gos-sync-map-de24a6bf7c2c)
